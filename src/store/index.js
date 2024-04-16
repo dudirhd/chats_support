@@ -140,25 +140,25 @@ export const useCounterStore = defineStore('counter', {
             name:   'БТУ 414141'
           },
           message_info:{
-            number:       "#121212",
-            theme:        false,
-            status:       false,
-            last_message: false,
-            dogovor:      false,
-            login:        false,
+            number:       '121212',
+            theme:        1,
+            status:       2,
+            last_message: 3,
+            dogovor:      4,
+            login:        5,
             name:         "Иванов И.",
-            phone:        false,
-            balance:      false,
-            need_to_pay:  false,
-            month_pay:    false,
-            pay_day:      false,
-            tarif:        false,
-            tarif_prefix: false,
-            day_speed:    false,
-            nigth_speed:  false,
-            app_version:  false,
-            city_bk:      false,
-            trash:        false,
+            phone:        6,
+            balance:      7,
+            need_to_pay:  8,
+            month_pay:    9,
+            pay_day:      0,
+            tarif:        11,
+            tarif_prefix: 12,
+            day_speed:    13,
+            nigth_speed:  14,
+            app_version:  15,
+            city_bk:      16,
+            trash:        17,
           }
         },
       ],
@@ -242,6 +242,134 @@ export const useCounterStore = defineStore('counter', {
       {
           isYou:   true,
           message: 'hi'
+      },
+      {
+        isYou:   false,
+        message: 'hello'
+    },
+    {
+        isYou:   false,
+        message: 'hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello '
+    },
+    {
+        isYou:   true,
+        message: 'hi'
+    },
+    {
+      isYou:   false,
+      message: 'hello'
+  },
+  {
+      isYou:   false,
+      message: 'hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello '
+  },
+  {
+      isYou:   true,
+      message: 'hi'
+  },
+  {
+    isYou:   false,
+    message: 'hello'
+},
+{
+    isYou:   false,
+    message: 'hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello '
+},
+{
+    isYou:   true,
+    message: 'hi'
+},
+    ],
+    table_inf: [
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
+      },
+      {
+        id: '1',
+        par: 'egwergwegwe',
+        val: 'oijhgerohbaeohbherhberahpbhpbripaebhiphiperhipbhipearberhbhiperbhipoiarbairebrebpberapiberpbpierpibepirbpierbp'
       },
     ]
   }),

@@ -84,7 +84,7 @@ onMounted(() => {document.getElementById('chat_scroll').scrollTo(0, 1999999999);
             border:     1px solid var(--color-element-child);
             text-align: left;
             padding:    8px 16px;
-            overflow:   scroll;
+            overflow-y:   scroll;
             border-radius: 6px;
         }
         .text-input{

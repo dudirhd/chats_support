@@ -53,7 +53,6 @@
       <div class="message">
         <Chat_and_pannel />
       </div>
-      <!-- <div class="chat-info">123123412341234</div> -->
     </div>
     <div class="footer">
       version 1.0

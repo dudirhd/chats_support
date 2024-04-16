@@ -88,7 +88,7 @@
                 <table>
                     <tr>
                         <td>Номер:</td>
-                        <th>{{ chat_info_store.chat_number }}</th>
+                        <th>{{ chat_info_store.number }}</th>
                     </tr>
                     <tr>
                         <td>Тема:</td>
@@ -241,6 +241,10 @@
 import {ref} from 'vue';
 import { Icon } from '@iconify/vue';
 import { useCounterStore } from '@/store';
+
+// defineProps(['chapter', 'info']);
+
+// const chat_message_store = useCounterStore().message_info;
 
 const chat_info_store = useCounterStore().chat_info;
 
@@ -506,7 +510,7 @@ function is_chat_selected_test(button_type){
     gap: 10px;
     padding: 4px;
     height: 95%;
-    overflow: scroll;
+    //overflow: scroll;
     // user-select: none;
     .change-status-or-theme{
         display: flex;
@@ -533,6 +537,7 @@ function is_chat_selected_test(button_type){
                 flex-direction: column;
                 text-align: left;
                 gap: 5px;
+                z-index: 20;
                 text{
                     padding: 2px 4px;
                     &:hover{color: var(--color-text);}
@@ -553,6 +558,7 @@ function is_chat_selected_test(button_type){
         position: relative;
         background-color: white;
         border-radius: 3px;
+        z-index: 1;
         input{
             width: 87%;
             padding: 2%;
@@ -574,7 +580,7 @@ function is_chat_selected_test(button_type){
 
     .info-blocks{
         height:   95%;
-        overflow: scroll;
+        overflow-y: scroll;
         .info-block{
             text-align:     left;
             display:        flex;
