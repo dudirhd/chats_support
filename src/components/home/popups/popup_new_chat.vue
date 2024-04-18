@@ -65,7 +65,7 @@ function setEmit(){
     z-index:  10;
     background-color: rgba(128, 128, 128, 0.466);
     .new-chat-popup{
-        z-index:   20;
+        z-index:   21;
         border:    1px solid white;
         position:  fixed;
         top:       50%;
