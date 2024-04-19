@@ -1,7 +1,21 @@
 <template>
-    <div class="container">
-        <div class="chatbot-container">
-            <h1>Чат-бот</h1>
+    <div class="chats-unload-component">
+        <h1>Выгрузка чатов</h1>
+        <div class="container-header">
+            <h2>Выгрузка БД</h2>
+            <p>
+                Выгрузка данных из таблицы чатов
+            </p>
+            <h3>Период выгрузки</h3>
+            <div class="inputs-container">
+                <p>Начало</p>
+                <input type="date">
+                <p>Конец (Включительно)</p>
+                <input type="date">
+            </div>
+            <button class="btn-date">Выгрузить</button>
+        </div>
+        <div class="container-content">
             <div class="header">
                 <div class="buttons">
                     <button class="chatbot-button"><img src="../assets/plus.svg" alt="Плюс">Новая запись</button>
@@ -73,26 +87,58 @@ import {Icon} from '@iconify/vue';
 const storage = useCounterStore().table_inf;
 
 
-// function Pagination() {
-//     let amount = storage.length / 5;
-
-// }
-
 </script>
 
-
 <style lang="scss" scoped>
-.container {
+.chats-unload-component {
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    .chatbot-container {
-        // background-color: #D3D3D3;
-        h1 {
-        margin-top: 20px;
-        margin-left: 10px;
-        text-align: left;
+    text-align: left;
+    h1 {
+        font-size: 28px;
+        margin-left: 16px;
+        margin-top: 28px;
+        margin-bottom: 12px;
+    }
+    .container-header {
+        border: 1px solid black;
+        width: 600px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 5px;
         }
+        .inputs-container {
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 20px;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid gray;
+        }
+        .btn-date {
+            margin-top: 16px;
+            width: 200px;
+            align-self: center;
+            height: 44px;
+            border-radius: 12px;
+            border: 0;
+            background-color: var(--color-hover-active);
+            font-size: var(--text-size-16);
+            color: white;
+            transition: 0.5s;
+        }
+        .btn-date:hover {
+            background-color: var(--color-hover);
+            transition: 0.5s;
+        }
+    }
+    .container-content {
+        margin-top: 40px;
         .header {
             margin-top: 10px;
             display:flex;
@@ -211,7 +257,6 @@ const storage = useCounterStore().table_inf;
             }
         }
     }
-    
 }
 .buttons {
     display: flex;
@@ -245,4 +290,3 @@ button {
     cursor: pointer;
 }
 </style>
-

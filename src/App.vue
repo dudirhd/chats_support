@@ -12,7 +12,7 @@
           <span @click="$router.push('/home'), menus[0] = false">Чаты</span>
           <span @click="somevalue = true, menus[0] = false">Новый чат</span>
           <span @click="$router.push('/chatbot'), menus[0] = false">Чат бот</span>
-          <span @click="menus[0] = false">Выгрузка чатов</span>
+          <span @click="$router.push('/unload'), menus[0] = false">Выгрузка чатов</span>
           <span @click="$router.push('/search'), menus[0] = false">Поиск чатов</span>
         </div>
 

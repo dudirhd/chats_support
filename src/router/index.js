@@ -3,6 +3,7 @@ import LoginPage from '../views/LoginPage.vue'
 import HomePage from '../views/HomePage.vue'
 import ChatBot from '../views/ChatBot.vue'
 import SearchChat from '@/views/SearchChat.vue'
+import ChatsUnload from '@/views/ChatsUnload.vue'
  
 const routes = [
   {
@@ -14,6 +15,11 @@ const routes = [
     path: '/home',
     name: 'home',
     component: HomePage
+  },
+  {
+    path: '/unload',
+    name: 'unload',
+    component: ChatsUnload    
   },
   {
     path: '/chatbot',
